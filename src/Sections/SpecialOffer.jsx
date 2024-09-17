@@ -4,13 +4,13 @@ import Button from "../Components/Button"
 
 function SpecialOffer() {
   return (
-    <section className="max-container flex justify-wrap items-center gap-10 max-xl:flex-row-reverse">
+    <section className="max-container lg:flex justify-wrap items-center gap-10 max-xl:flex-row-reverse">
       <div className="flex-1">
-        <img src={offer} alt="" width={773} height={687} className="object-contain w-full" />
+        <img src={offer} alt="" width={773} height={687} className="object-contain" />
       </div>
       <div className="flex flex-1 flex-col">
-        <h2 className="text-6xl font-palanquin capitalize lg:max-w-lg font-bold">
-        <span className="lg:mt-5 mt-3 inline-block text-coral-red">Special</span> Offer
+        <h2 className="lg:text-6xl text-4xl font-palanquin capitalize lg:max-w-lg font-bold">
+        <span className="lg:mt-5 mt-4 inline-block text-coral-red">Special</span> Offer
         </h2>
         <p className="mt-4 lg:max-w-lg info-text">
           Ensuring premium comfort and sytle, our meticulously crufted footwear is design to elevate your experience, providing you with unmatched quality, innovation and a touch of elegant.
